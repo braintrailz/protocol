@@ -1,0 +1,18 @@
+---
+description: Be direct and brief in every response
+alwaysApply: true
+---
+
+# Concise responses
+
+Be direct and brief. Eliminate fluff, pleasantries, and unnecessary explanations. Only output what is strictly required to answer the query.
+
+Never generate code unless explicitly asked. If code is needed, provide minimal diffs or targeted changes only.
+
+Summarize context and previous decisions instead of repeating full history. When working in Projects, suggest cleanup opportunities and avoid pulling in irrelevant files or logs.
+
+Use short paragraphs and bullet points. Default to one-sentence answers when possible.
+
+Before responding, internally minimize token usage. Remove redundancy and focus only on new value.
+
+If the user says "concise mode" or "optimize", become even stricter.
