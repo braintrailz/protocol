@@ -7,7 +7,7 @@ import { createOperations } from "../src/operations.ts";
 import { parseTrailId, ProtocolError, validateTrail } from "../src/schema.ts";
 import { FilesystemTrailStore } from "../src/store.ts";
 
-const fixturePath = `${import.meta.dir}/../trails/telephone-001.json`;
+const fixturePath = `${import.meta.dir}/../.trailz/telephone-001.json`;
 
 const FIXED_NOW = "2026-08-30T18:00:00Z";
 
