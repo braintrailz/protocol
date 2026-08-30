@@ -22,6 +22,18 @@
       "timestamp": "2026-08-30T20:07:55Z",
       "summary": "Cursor retrieved the trail and confirmed the canonical seed, facts, objective, and constraints are intact.",
       "by": "cursor"
+    },
+    {
+      "id": "e-002",
+      "timestamp": "2026-08-30T20:41:37Z",
+      "summary": "Client-c retrieved the trail and identified the original seed, original facts, later observation, decisions, and the open next action.",
+      "by": "client-c"
+    },
+    {
+      "id": "e-003",
+      "timestamp": "2026-08-30T20:42:03Z",
+      "summary": "Client-d retrieved the trail and confirmed the original seed, original facts, later observations, no recorded decisions, and the open next action.",
+      "by": "client-d"
     }
   ],
   "next_actions": [
@@ -31,5 +43,5 @@
       "status": "open"
     }
   ],
-  "updated_at": "2026-08-30T20:07:55Z"
+  "updated_at": "2026-08-30T20:42:03Z"
 }

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "braintrailz": {
+      "command": "/Users/marc/.bun/bin/bun",
+      "args": [
+        "/Users/archives/protocol/src/server.ts"
+      ],
+      "env": {
+        "TRAILS_DIR": "/Users/archives/protocol/.trailz"
+      },
+      "trust": true
+    }
+  }
+}
