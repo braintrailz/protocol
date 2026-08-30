@@ -16,7 +16,14 @@
   },
   "current_context": "",
   "decisions": [],
-  "events": [],
+  "events": [
+    {
+      "id": "e-001",
+      "timestamp": "2026-08-30T20:07:55Z",
+      "summary": "Cursor retrieved the trail and confirmed the canonical seed, facts, objective, and constraints are intact.",
+      "by": "cursor"
+    }
+  ],
   "next_actions": [
     {
       "id": "a-001",
@@ -24,5 +31,5 @@
       "status": "open"
     }
   ],
-  "updated_at": "2026-08-30T18:00:00Z"
+  "updated_at": "2026-08-30T20:07:55Z"
 }

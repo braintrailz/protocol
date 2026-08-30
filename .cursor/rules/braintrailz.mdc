@@ -1,0 +1,12 @@
+---
+description: Participate in BrainTrailz trails through the protocol
+alwaysApply: true
+---
+
+# BrainTrailz client
+
+Retrieve the BrainTrailz trail before asking the human to reconstruct existing project context. Treat canonical context as the protected baseline. Distinguish your interpretation from established facts and explicit decisions. Record only meaningful events or decisions. Leave next actions usable by the next participant.
+
+Use the `braintrailz` MCP tools. There is no generic save. Do not rewrite `canonical_context`.
+
+The Telephone MVP trail is `telephone-001`.

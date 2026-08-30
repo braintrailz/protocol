@@ -336,6 +336,20 @@ The order has no architectural significance.
 
 Do not change the trail model or core operations to accommodate one client.
 
+### Cursor
+
+Project MCP config is `.cursor/mcp.json`. Enable `braintrailz` in Cursor Settings → MCP.
+
+The server command is `bun src/server.ts`. Trails default to `.trailz`.
+
+### Claude Code
+
+Project MCP config is `.mcp.json`. Approve `braintrailz` if Claude prompts.
+
+### OpenAI Codex
+
+Registered as the `braintrailz` MCP server. Trails stay in `.trailz`.
+
 ## Telephone test procedure
 
 ### Test A — Baseline

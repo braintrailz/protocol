@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "braintrailz": {
+      "command": "/Users/marc/.bun/bin/bun",
+      "args": ["src/server.ts"],
+      "env": {
+        "TRAILS_DIR": ".trailz"
+      }
+    }
+  }
+}

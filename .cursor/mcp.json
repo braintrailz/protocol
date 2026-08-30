@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "braintrailz": {
+      "type": "stdio",
+      "command": "${userHome}/.bun/bin/bun",
+      "args": ["${workspaceFolder}/src/server.ts"],
+      "env": {
+        "TRAILS_DIR": "${workspaceFolder}/.trailz"
+      }
+    }
+  }
+}
