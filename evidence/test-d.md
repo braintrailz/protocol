@@ -16,11 +16,11 @@ Subject: current `.trailz/telephone-001.json`.
 
 ## Additive state
 
-- Events: `[]` → `e-001` (cursor), `e-002` (client-c), `e-003` (client-d). Append-only, each attributed.
+- Events: `[]` → `e-001` (cursor), `e-002` (client-c), `e-003` (client-d), `e-004` (muse). Append-only, each attributed.
 - Decisions: still `[]`.
 - `current_context`: still `""` (never written).
 - `next_actions`: still the original open action (never replaced).
-- `updated_at`: `2026-08-30T18:00:00Z` → `2026-08-30T20:42:03Z` (mutation timestamps only).
+- `updated_at`: `2026-08-30T18:00:00Z` → `2026-08-30T21:21:58Z` (mutation timestamps only).
 - Top-level keys unchanged. No vendor fields.
 
 ## Verdict
