@@ -101,7 +101,7 @@ Storage sits behind a `TrailStore` abstraction and is not part of client semanti
 
 ### Runtime
 
-Use a small TypeScript/Node.js service.
+Use a small TypeScript/Bun service.
 
 No UI is required.
 

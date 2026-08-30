@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.2",
+  "trail_id": "telephone-001",
+  "title": "Telephone Test 001",
+  "purpose": "Prove that canonical context survives AI handoffs.",
+  "canonical_context": {
+    "seed": "Original message.",
+    "facts": [
+      "Fact one.",
+      "Fact two."
+    ],
+    "objective": "Objective.",
+    "constraints": [
+      "A constraint."
+    ]
+  },
+  "current_context": "",
+  "decisions": [],
+  "events": [],
+  "next_actions": [
+    {
+      "id": "a-001",
+      "text": "Pass the trail to the next participant.",
+      "status": "open"
+    }
+  ],
+  "updated_at": "2026-08-30T18:00:00Z"
+}
