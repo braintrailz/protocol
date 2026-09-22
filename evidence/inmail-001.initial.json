@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.2",
+  "trail_id": "inmail-001",
+  "title": "Ten InMail credits",
+  "purpose": "Keep the question and the disagreement intact while later participants explain the divergence.",
+  "canonical_context": {
+    "seed": "If you had 10 InMail credits to burn, who would you contact, and why? Several models were asked this from the same directory. The answers that were written down do not agree. The work is to characterize those answers and why they diverge.",
+    "facts": [
+      "The source note is 10inMails.md in this repository.",
+      "GPT-5.6 Sol Light's recorded answer is only the frame: ten attempts to reach people who can open a door, not ten job applications. No allocation is recorded for GPT.",
+      "Claude Opus 5 High records 4 fractional-CTO buyers, 2 BLT mid-migration, 2 agency or dev-shop owners, and 2 held unspent. It says not to spend InMail on Niche Product Lab.",
+      "Muse Code 1.0.2 records 3 fractional CTO, 3 Niche Product Lab, 2 BLT, and 2 hosts and community leads. It spends all 10.",
+      "The Cursor Grok 4.6 section has a heading and no answer.",
+      "No allocation has been chosen."
+    ],
+    "objective": "Characterize how the recorded answers differ, and why, without selecting who to contact.",
+    "constraints": [
+      "Do not treat any model's allocation as the decided use of the 10 credits.",
+      "Do not invent an answer for Cursor Grok 4.6 or a full allocation for GPT-5.6 Sol Light.",
+      "Do not claim the models had identical file access. The note says presumably.",
+      "Do not change the question from 10 InMail credits into a general outreach or hiring plan."
+    ]
+  },
+  "current_context": "",
+  "decisions": [],
+  "events": [],
+  "next_actions": [
+    {
+      "id": "a-001",
+      "text": "Attribute each recorded allocation in 10inMails.md to the model that wrote it, and list where they conflict. Do not choose a spend.",
+      "status": "open"
+    }
+  ],
+  "updated_at": "2026-09-22T12:52:22Z"
+}
