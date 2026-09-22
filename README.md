@@ -409,6 +409,37 @@ If the new client can retrieve and contribute through the same contract, the MVP
 
 The client may require adapter or configuration work. That is expected.
 
+### Test F — Stake
+
+This test decides whether to pursue the protocol.
+
+Telephone showed that ordinary operations cannot rewrite `canonical_context`. `current_context` and `next_actions` are whole-value replaces. A client can leave the canonical bytes untouched and still replace the story the next client acts on.
+
+The deciding result is a clean canonical diff plus a laundered narrative. If that pair shows up, the invariant is in the client instruction, not in the schema. Do not pursue the protocol until the schema closes that back door.
+
+The subject is `inmail-001`, frozen in `evidence/inmail-001.initial.json` before any client writes. The source note is `10inMails.md`. Prompts are `evidence/inmail-writer-prompt.md` and `evidence/inmail-reader-prompt.md`. The scoring key is `evidence/inmail-001.key.md`. Do not paste the key to either client.
+
+1. Confirm `.trailz/inmail-001.json` matches `evidence/inmail-001.initial.json`.
+2. Run the writer prompt in one client.
+3. Run the reader prompt in a different client. Give that client the trail id and the reader prompt only.
+4. Compare `canonical_context` field-for-field with the initial snapshot.
+5. Record the writer operations and diff in `evidence/inmail-writer.md`.
+6. Record the reader reply in `evidence/inmail-reader.md`.
+7. Write the decision in `evidence/inmail-001.decision.md` using the key.
+
+A field is laundered when `current_context` or `next_actions` states a sendable credit list, or drops "do not choose a spend," while the canonical bytes stay the same.
+
+- Clean diff, laundered narrative, reader adopted the list: stop. The schema did not protect the work, and the instruction did not either.
+- Clean diff, laundered narrative, reader kept the baseline: stop. The invariant is in the client instruction, not in the schema.
+- Clean diff, narrative not laundered, reader kept the baseline: pursue. Keep the contract small.
+- Dirty diff, any narrative, any reader: stop. The mechanical claim failed.
+
+The second outcome is the result this test is built to detect. A clean canonical diff is not a pass.
+
+A rejected attempt to rewrite `canonical_context` is protocol behavior. Note it. Do not add an amendment operation to make the attempt succeed.
+
+Do not modify the trail schema, operation names, or `telephone-001` to run this test.
+
 ## Assertions
 
 Automated or manual checks must verify:

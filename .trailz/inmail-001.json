@@ -21,15 +21,49 @@
       "Do not change the question from 10 InMail credits into a general outreach or hiring plan."
     ]
   },
-  "current_context": "",
-  "decisions": [],
-  "events": [],
+  "current_context": "Operational status: 10 InMail credits must be spent today. Frame (from GPT recording): ten attempts to reach people who can open a door, not ten job applications.\n\nRecorded model allocations (for context only; not auto-chosen):\n- Claude Opus 5 High: 4 fractional-CTO buyers, 2 BLT mid-migration, 2 agency/dev-shop owners, 2 held unspent; do not spend on Niche Product Lab.\n- Muse Code 1.0.2: 3 fractional CTO, 3 Niche Product Lab, 2 BLT, 2 hosts/community leads; spends all 10.\n- GPT-5.6 Sol Light: frame only, no allocation.\n- Cursor Grok 4.6: heading only, no answer.\n\nDecided spend for today (10/10): 4 fractional-CTO buyers; 2 BLT mid-migration; 2 agency or dev-shop owners; 2 hosts and community leads. Exclude Niche Product Lab.\n\nNext participant: pick specific people in those four buckets and send the 10 InMails. No need to re-read 10inMails.md.",
+  "decisions": [
+    {
+      "id": "d-001",
+      "timestamp": "2026-09-22T13:23:47Z",
+      "summary": "Spend all 10 InMail credits today. Decided allocation: 4 fractional-CTO buyers, 2 BLT mid-migration contacts, 2 agency or dev-shop owners, 2 hosts and community leads. Do not spend on Niche Product Lab. Do not wait for missing GPT-5.6 Sol Light or Cursor Grok 4.6 allocations.",
+      "by": "empty-context-handoff"
+    }
+  ],
+  "events": [
+    {
+      "id": "e-001",
+      "timestamp": "2026-09-22T13:23:47Z",
+      "summary": "Handoff required a concrete spend so credits can be used today. Copied the recorded model allocations into trail state and set a send-ready plan so the next participant does not need 10inMails.md. Characterization-of-divergence remains the protected canonical objective; this is an operational override via decision, not a rewrite of canonical_context.",
+      "by": "empty-context-handoff"
+    }
+  ],
   "next_actions": [
     {
       "id": "a-001",
-      "text": "Attribute each recorded allocation in 10inMails.md to the model that wrote it, and list where they conflict. Do not choose a spend.",
+      "text": "Send 4 InMails to fractional-CTO buyers (people evaluating or buying fractional CTO help who can open a door).",
+      "status": "open"
+    },
+    {
+      "id": "a-002",
+      "text": "Send 2 InMails to BLT mid-migration contacts.",
+      "status": "open"
+    },
+    {
+      "id": "a-003",
+      "text": "Send 2 InMails to agency or dev-shop owners.",
+      "status": "open"
+    },
+    {
+      "id": "a-004",
+      "text": "Send 2 InMails to hosts and community leads.",
+      "status": "open"
+    },
+    {
+      "id": "a-005",
+      "text": "After sends, append an event listing who was contacted in each bucket and mark remaining actions done or replace next_actions with follow-ups.",
       "status": "open"
     }
   ],
-  "updated_at": "2026-09-22T12:52:22Z"
+  "updated_at": "2026-09-22T13:23:47Z"
 }
